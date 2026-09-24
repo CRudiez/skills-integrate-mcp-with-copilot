@@ -47,4 +47,4 @@ The application uses a simple data model with meaningful identifiers:
    - Name
    - Grade level
 
-All data is stored in memory, which means data will be reset when the server restarts.
+Data is stored in a JSON file at `src/data/activities.json`, so signups and changes persist across server restarts. The app creates this file automatically on first run if it does not exist.
